@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover Ember & Oak, a modern dining experience with seasonal dishes and warm hospitality.">
+  <title>Ember & Oak | Modern Dining</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="#home">EMBER <span>& OAK</span></a>
+
+    <button class="menu-toggle" id="menuToggle"
+      aria-label="Open navigation" aria-expanded="false">☰</button>
+
+    <nav id="navigation">
+      <a href="#home">Home</a>
+      <a href="#story">Our Story</a>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Contact</a>
+      <a class="nav-button" href="#contact">Find Us</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <p class="eyebrow">A MODERN AMERICAN RESTAURANT</p>
+        <h1>Good food.<br>Great company.</h1>
+        <p class="hero-description">
+          Thoughtfully prepared dishes, seasonal ingredients,
+          and memorable moments around the table.
+        </p>
+        <div class="hero-actions">
+          <a href="#menu" class="button button-gold">Explore Our Menu</a>
+          <a href="#story" class="button button-outline">Our Story</a>
+        </div>
+        <p class="hero-note">A fictional restaurant concept for demonstration.</p>
+      </div>
+    </section>
+
+    <section class="intro section" id="story">
+      <p class="eyebrow">WELCOME TO EMBER & OAK</p>
+      <h2>Made with care.<br>Served with heart.</h2>
+      <p>
+        We believe a great meal is about more than what's on the plate.
+        It's about fresh ingredients, thoughtful cooking, and the people
+        who gather around the table.
+      </p>
+    </section>
+
+    <section class="menu-section section" id="menu">
+      <div class="section-heading">
+        <p class="eyebrow">A TASTE OF OUR KITCHEN</p>
+        <h2>Guest Favorites</h2>
+        <p>Explore a sample menu created for this website demo.</p>
+      </div>
+
+      <div class="menu-grid">
+        <article class="menu-card">
+          <img
+            src="https://images.unsplash.com/photo-1546549032-9571cd6b27df?auto=format&fit=crop&w=900&q=85"
+            alt="Fresh pasta served on a plate" loading="lazy">
+          <div class="menu-info">
+            <div class="menu-title"><h3>Garden Pasta</h3><span>$18</span></div>
+            <p>Seasonal vegetables, fresh herbs, and parmesan.</p>
+          </div>
+        </article>
+
+        <article class="menu-card">
+          <img
+            src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=900&q=85"
+            alt="Grilled food prepared for a shared meal" loading="lazy">
+          <div class="menu-info">
+            <div class="menu-title"><h3>Oak-Grilled Plate</h3><span>$26</span></div>
+            <p>Grilled seasonal ingredients with house-made sauce.</p>
+          </div>
+        </article>
+
+        <article class="menu-card">
+          <img
+            src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&fit=crop&w=900&q=85"
+            alt="Freshly baked pizza with colorful toppings" loading="lazy">
+          <div class="menu-info">
+            <div class="menu-title"><h3>House Flatbread</h3><span>$16</span></div>
+            <p>Golden crust, tomato, herbs, and melted cheese.</p>
+          </div>
+        </article>
+      </div>
+      <p class="demo-note">Sample menu and prices only. Not available for ordering.</p>
+    </section>
+
+    <section class="visit-section section" id="contact">
+      <p class="eyebrow">WE'D LOVE TO WELCOME YOU</p>
+      <h2>Your table is waiting.</h2>
+      <p>Planning a visit? Contact us to learn more.</p>
+      <a class="button button-gold"
+        href="mailto:hello@example.com?subject=Restaurant%20Inquiry">
+        Contact the Restaurant
+      </a>
+      <p class="demo-note">Demo contact address — replace before any real launch.</p>
+    </section>
+  </main>
+
+  <footer>
+    <a class="logo" href="#home">EMBER <span>& OAK</span></a>
+    <p>© <span id="year"></span> Ember & Oak. Practice website concept.</p>
+  </footer>
+</body>
+</html>
